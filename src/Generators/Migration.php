@@ -1,13 +1,13 @@
 <?php
-namespace Franzose\ClosureTable\Generators;
+namespace Bregananta\ClosureTable\Generators;
 
 use Carbon\Carbon;
-use Franzose\ClosureTable\Extensions\Str as ExtStr;
+use Bregananta\ClosureTable\Extensions\Str as ExtStr;
 
 /**
  * ClosureTable specific migrations generator class.
  *
- * @package Franzose\ClosureTable\Generators
+ * @package Bregananta\ClosureTable\Generators
  */
 class Migration extends Generator
 {

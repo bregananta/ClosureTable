@@ -1,13 +1,13 @@
 <?php
-namespace Franzose\ClosureTable;
+namespace Bregananta\ClosureTable;
 
 use Illuminate\Support\ServiceProvider;
-use Franzose\ClosureTable\Console\MakeCommand;
+use Bregananta\ClosureTable\Console\MakeCommand;
 
 /**
  * ClosureTable service provider
  *
- * @package Franzose\ClosureTable
+ * @package Bregananta\ClosureTable
  */
 class ClosureTableServiceProvider extends ServiceProvider
 {

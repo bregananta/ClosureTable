@@ -1,12 +1,12 @@
 <?php
-namespace Franzose\ClosureTable\Extensions;
+namespace Bregananta\ClosureTable\Extensions;
 
 use Illuminate\Support\Str as BaseStr;
 
 /**
  * Extension of the base Str class.
  *
- * @package Franzose\ClosureTable\Extensions
+ * @package Bregananta\ClosureTable\Extensions
  */
 class Str extends BaseStr
 {

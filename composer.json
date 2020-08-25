@@ -1,13 +1,13 @@
 {
-    "name": "franzose/closure-table",
-    "description": "Adjacency List’ed Closure Table database design pattern implementation for Laravel",
+    "name": "bregananta/closure-table",
+    "description": "Adjacency List’ed Closure Table database design pattern implementation for Laravel. Forked from  franzose/closure-table",
     "keywords": ["laravel", "closure table", "database", "adjacency list", "pages", "categories", "hierarchy"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jan Iwanow",
-            "email": "iwanow.jan@gmail.com",
-            "homepage": "http://janiwanow.com",
+            "name": "Bregananta",
+            "email": "bregananta@gmail.com",
+            "homepage": "http://bregananta.dev",
             "role": "Developer"
         }
     ],
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Franzose\\ClosureTable\\": "src/"
+            "Bregananta\\ClosureTable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Franzose\\ClosureTable\\Tests\\": "tests/"
+            "Bregananta\\ClosureTable\\Tests\\": "tests/"
         }
     },
     "config": {
@@ -35,7 +35,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Franzose\\ClosureTable\\ClosureTableServiceProvider"
+                "Bregananta\\ClosureTable\\ClosureTableServiceProvider"
             ]
         }
     }

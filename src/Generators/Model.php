@@ -1,13 +1,13 @@
 <?php
-namespace Franzose\ClosureTable\Generators;
+namespace Bregananta\ClosureTable\Generators;
 
-use Franzose\ClosureTable\Extensions\Str as ExtStr;
+use Bregananta\ClosureTable\Extensions\Str as ExtStr;
 use Illuminate\Support\Str;
 
 /**
  * ClosureTable specific models generator class.
  *
- * @package Franzose\ClosureTable\Generators
+ * @package Bregananta\ClosureTable\Generators
  */
 class Model extends Generator
 {

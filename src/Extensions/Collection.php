@@ -1,14 +1,14 @@
 <?php
-namespace Franzose\ClosureTable\Extensions;
+namespace Bregananta\ClosureTable\Extensions;
 
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
-use Franzose\ClosureTable\Models\Entity;
+use Bregananta\ClosureTable\Models\Entity;
 
 /**
  * Extended Collection class. Provides some useful methods.
  *
  * @method Entity|null get($key, $default = null)
- * @package Franzose\ClosureTable\Extensions
+ * @package Bregananta\ClosureTable\Extensions
  */
 class Collection extends EloquentCollection
 {

@@ -1,15 +1,15 @@
 <?php
-namespace Franzose\ClosureTable\Tests;
+namespace Bregananta\ClosureTable\Tests;
 
 use DB;
 use Dotenv\Dotenv;
-use Franzose\ClosureTable\Contracts\ClosureTableInterface;
-use Franzose\ClosureTable\Contracts\EntityInterface;
-use Franzose\ClosureTable\Models\ClosureTable;
+use Bregananta\ClosureTable\Contracts\ClosureTableInterface;
+use Bregananta\ClosureTable\Contracts\EntityInterface;
+use Bregananta\ClosureTable\Models\ClosureTable;
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Foundation\Application;
 use Orchestra\Testbench\TestCase;
-use Franzose\ClosureTable\Models\Entity;
+use Bregananta\ClosureTable\Models\Entity;
 
 abstract class BaseTestCase extends TestCase
 {

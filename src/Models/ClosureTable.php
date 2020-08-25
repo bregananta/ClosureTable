@@ -1,8 +1,8 @@
 <?php
-namespace Franzose\ClosureTable\Models;
+namespace Bregananta\ClosureTable\Models;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Franzose\ClosureTable\Contracts\ClosureTableInterface;
+use Bregananta\ClosureTable\Contracts\ClosureTableInterface;
 
 /**
  * Basic ClosureTable model. Performs actions on the relationships table.
@@ -11,7 +11,7 @@ use Franzose\ClosureTable\Contracts\ClosureTableInterface;
  * @property mixed descendant Alias for the descendant attribute name
  * @property int depth Alias for the depth attribute name
  *
- * @package Franzose\ClosureTable
+ * @package Bregananta\ClosureTable
  */
 class ClosureTable extends Eloquent implements ClosureTableInterface
 {

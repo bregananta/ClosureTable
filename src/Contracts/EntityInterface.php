@@ -1,11 +1,11 @@
 <?php
-namespace Franzose\ClosureTable\Contracts;
+namespace Bregananta\ClosureTable\Contracts;
 
 /**
  * Basic Entity model interface.
  *
  * @deprecated since 6.0
- * @package Franzose\ClosureTable\Contracts
+ * @package Bregananta\ClosureTable\Contracts
  */
 interface EntityInterface
 {
@@ -133,7 +133,7 @@ interface EntityInterface
      * @param array $columns
      * @return \Franzose\ClosureTable\Extensions\Collection
      */
-    public function getDescendants(array $columns = ['*']);
+    public function getDescendants(array $columns = ['*'], $relation = null);
 
     /**
      * Retrieves descendants applying given conditions.

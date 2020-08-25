@@ -1,7 +1,7 @@
 <?php
-namespace Franzose\ClosureTable\Tests;
+namespace Bregananta\ClosureTable\Tests;
 
-use Franzose\ClosureTable\Models\Entity;
+use Bregananta\ClosureTable\Models\Entity;
 
 class Page extends Entity
 {

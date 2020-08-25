@@ -1,12 +1,12 @@
 <?php
-namespace Franzose\ClosureTable\Generators;
+namespace Bregananta\ClosureTable\Generators;
 
 use Illuminate\Filesystem\Filesystem;
 
 /**
  * Basic generator class.
  *
- * @package Franzose\ClosureTable\Generators
+ * @package Bregananta\ClosureTable\Generators
  */
 abstract class Generator
 {

@@ -1,10 +1,10 @@
 <?php
-namespace Franzose\ClosureTable\Models;
+namespace Bregananta\ClosureTable\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Franzose\ClosureTable\Contracts\EntityInterface;
-use Franzose\ClosureTable\Extensions\Collection;
+use Bregananta\ClosureTable\Contracts\EntityInterface;
+use Bregananta\ClosureTable\Extensions\Collection;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Arr;
 use InvalidArgumentException;
@@ -60,7 +60,7 @@ use InvalidArgumentException;
  * @method Builder siblingsRange(int $from, int $to = null)
  * @method Builder siblingsRangeOf($id, int $from, int $to = null)
  *
- * @package Franzose\ClosureTable
+ * @package Bregananta\ClosureTable
  */
 class Entity extends Eloquent implements EntityInterface
 {
@@ -567,8 +567,11 @@ class Entity extends Eloquent implements EntityInterface
      * @param array $columns
      * @return Collection
      */
-    public function getDescendants(array $columns = ['*'])
+    public function getDescendants(array $columns = ['*'], $relation = null)
     {
+        if ($relation != null) {
+            return $this->descendants()->with($relation)->get($columns);
+        }
         return $this->descendants()->get($columns);
     }
 

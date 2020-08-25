@@ -1,10 +1,10 @@
 <?php
 
-namespace Franzose\ClosureTable\Console;
+namespace Bregananta\ClosureTable\Console;
 
-use Franzose\ClosureTable\Extensions\Str as ExtStr;
-use Franzose\ClosureTable\Generators\Migration;
-use Franzose\ClosureTable\Generators\Model;
+use Bregananta\ClosureTable\Extensions\Str as ExtStr;
+use Bregananta\ClosureTable\Generators\Migration;
+use Bregananta\ClosureTable\Generators\Model;
 use Illuminate\Console\Command;
 use Illuminate\Support\Composer;
 use Symfony\Component\Console\Input\InputArgument;
@@ -13,7 +13,7 @@ use Symfony\Component\Console\Input\InputOption;
 /**
  * ClosureTable scaffolding command, created migrations and models.
  *
- * @package Franzose\ClosureTable\Console
+ * @package Bregananta\ClosureTable\Console
  */
 class MakeCommand extends Command
 {
