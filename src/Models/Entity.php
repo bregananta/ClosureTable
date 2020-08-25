@@ -569,6 +569,7 @@ class Entity extends Eloquent implements EntityInterface
      */
     public function getDescendants(array $columns = ['*'], $relation = null)
     {
+        dd($relation);
         if ($relation != null) {
             return $this->descendants()->with($relation)->get($columns);
         }
